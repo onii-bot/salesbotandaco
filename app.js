@@ -129,9 +129,9 @@ async function monitorContract() {
         tweet(
           `${_.get(
             tokenData,
-            'assetName',
+            'Budda Bear',
             `#` + tokens[0]
-          )} & other assets bought for ${totalPrice} ${currency.name} on ${
+          )} & others were bought for ${totalPrice} ${currency.name} on ${
             market.name
           } https://etherscan.io/tx/${transactionHash}`
         );
@@ -139,9 +139,9 @@ async function monitorContract() {
         tweet(
           `${_.get(
             tokenData,
-            'assetName',
+            'Budda Bear',
             `#` + tokens[0]
-          )} bought for ${totalPrice} ${currency.name} on ${market.name} ${
+          )} was bought for ${totalPrice} ${currency.name} on ${market.name} ${
             market.site
           }${process.env.CONTRACT_ADDRESS}/${tokens[0]}`
         );
