@@ -12,7 +12,7 @@ const twitterClient = new twit(twitterConfig);
 // Tweet a text-based status
 async function tweet(tweetText) {
     const tweet = {
-        status: tweetText,
+        status: tweetText + " #MOREBUDDA #420 #NFT ",
     };
 
     twitterClient.post('statuses/update', tweet, (error, tweet, response) => {
