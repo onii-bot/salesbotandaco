@@ -129,7 +129,7 @@ async function monitorContract() {
         tweet(
           `${_.get(
             tokenData,
-            'assetName',
+            'Budda Bear',
             `#` + tokens[0]
           )} & other assets bought for ${totalPrice} ${currency.name} on ${
             market.name
@@ -139,7 +139,7 @@ async function monitorContract() {
         tweet(
           `${_.get(
             tokenData,
-            'assetName',
+            'Budda Bear',
             `#` + tokens[0]
           )} bought for ${totalPrice} ${currency.name} on ${market.name} ${
             market.site
