@@ -59,7 +59,7 @@ async function getTokenData(tokenId) {
 
         // just the asset name for now, but retrieve whatever you need
         return {
-          assetName: _.get(data, 'name'),
+          assetName: "Budda Bear",
         };
       },
       {
