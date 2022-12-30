@@ -123,6 +123,8 @@ async function monitorContract() {
 
       // retrieve metadata for the first (or only) ERC21 asset sold
       const tokenData = await getTokenData(tokens[0]);
+    
+      totalPrice = totalPrice.toFixed(5);
 
       // if more than one asset sold, link directly to etherscan tx, otherwise the marketplace item
       if (tokens.length > 1) {
