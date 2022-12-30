@@ -133,7 +133,7 @@ async function monitorContract() {
             `#` + tokens[0]
           )} & other assets were bought for ${totalPrice} ${currency.name} on ${
             market.name
-          } https://etherscan.io/tx/${transactionHash} #MOREBUDDA #420 #NFT`
+          } https://etherscan.io/tx/${transactionHash} #MOREBUDDA #NFT`
         );
       } else {
         tweet(
@@ -143,7 +143,7 @@ async function monitorContract() {
             `#` + tokens[0]
           )} was bought for ${totalPrice} ${currency.name} on ${market.name} ${
             market.site
-          }${process.env.CONTRACT_ADDRESS}/${tokens[0]} #MOREBUDDA #420 #NFT`
+          }${process.env.CONTRACT_ADDRESS}/${tokens[0]} #MOREBUDDA #NFT`
         );
       }
     })
