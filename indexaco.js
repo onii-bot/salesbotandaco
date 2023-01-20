@@ -12,7 +12,7 @@ const client = new Client({
 });
 
 
-client.util = require('./util');
+client.util = require('./utilaco');
 
 client.on('warn', err => console.warn('[WARNING]', err));
 
