@@ -44,7 +44,6 @@ client.on('uncaughtException', (err) => {
 client.on('messageCreate', async (msg) => {
     if (msg.author.bot) return;
     if (msg.guild) {
-        let role = msg.member.roles.cache.get('1058632194618302564');
         let role2 = msg.member.roles.cache.get('1054449181613367398');
         let role3 = msg.member.roles.cache.get('1054446386663395380');
         let role4 = msg.member.roles.cache.get('1054446960100245514');
