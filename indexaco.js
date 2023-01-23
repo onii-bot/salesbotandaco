@@ -44,10 +44,12 @@ client.on('uncaughtException', (err) => {
 client.on('messageCreate', async (msg) => {
     if (msg.author.bot) return;
     if (msg.guild) {
+        let role = msg.member.roles.cache.get('1054447083131777064');
         let role2 = msg.member.roles.cache.get('1054449181613367398');
         let role3 = msg.member.roles.cache.get('1054446386663395380');
         let role4 = msg.member.roles.cache.get('1054446960100245514');
-        if (role || role2 || role3 || role4) {
+        let role5 = msg.member.roles.cache.get('1040015518683381840');
+        if (role || role2 || role3 || role4 || role5) {
             // Execute your code here
             // Example : message.channel.send('This user has the specified role');
             if (msg.content.startsWith(`<@${msg.client.user.id}>`) || msg.content.startsWith(`<@!${msg.client.user.id}>`) || msg.content.toLowerCase().includes(`aco`)) {
