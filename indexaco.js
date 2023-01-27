@@ -75,8 +75,6 @@ client.on('messageCreate', async (msg) => {
                     } else {
                         client.util.handleTalk(msg);
                     }
-                } else {
-                    console.log("NOT ACO")
                 }
             }
         }
