@@ -49,7 +49,8 @@ client.on('messageCreate', async (msg) => {
         let role3 = msg.member.roles.cache.get('1054446386663395380');
         let role4 = msg.member.roles.cache.get('1054446960100245514');
         let role5 = msg.member.roles.cache.get('1040015518683381840');
-        if (role || role2 || role3 || role4 || role5) {
+        let role6 = msg.member.roles.cache.get('1040681728232136795');
+        if (role || role2 || role3 || role4 || role5 || role6) {
             // Execute your code here
             // Example : message.channel.send('This user has the specified role');
             if (msg.content.startsWith(`<@${msg.client.user.id}>`) || msg.content.startsWith(`<@!${msg.client.user.id}>`) || msg.content.toLowerCase().includes(`aco`)) {
