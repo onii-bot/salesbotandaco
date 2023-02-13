@@ -22,7 +22,7 @@
     "@discordjs/builders": "^1.4.0",
     "@discordjs/rest": "^1.5.0",
     "axios": "^1.2.6",
-    "discord.js": "^14.7.1",
+    "discord.js": "^13.1.0",
     "mongodb": "^4.13.0"
   }
 }
